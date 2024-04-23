@@ -1,0 +1,323 @@
+#home{
+    width: 100%;
+    height: 110vh !important;
+  }
+  #home{
+    display: flex;
+    text-align: center;
+      align-items: center;
+      justify-content: center;
+  }
+  
+  .main_image{
+    border: solid;
+      top: 18%;
+      left: 11%;
+      height: 550px;
+      width: 1200px;
+      border-radius: 40px;
+    
+  }
+  
+  .written_content
+  {
+    width: 500px;
+    height: 450px;
+    position: relative;
+    top: 50px;
+    left: 46%;
+    text-align: center;
+  
+    
+  }
+  .written_content h1{
+    color: white;
+    font-family: "Audiowide", sans-serif;
+  }
+  .written_content h2{
+    color: white;
+    font-family: "Sofia", sans-serif;
+  }
+  .written_content h3{
+    color: white;
+    font-family: "Sofia", sans-serif;
+  }
+  .heading_home_screen
+  {
+    color: red;
+  }
+  #home{
+    height: 90vh;
+    width: 100%;
+  }
+ 
+  .columns
+  {
+    display: flex;
+    text-align: center;
+      align-items: center;
+      justify-content: center;
+      
+  }
+  
+  
+  .contact_us_heading
+  {
+    font-family: "Sofia",sans-serif;
+  }
+  .outer_container{
+    display: flex;
+    text-align: center;
+      align-items: center;
+      justify-content: center;
+  }
+  
+  .contact_us_container{
+    width: 100vh;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+  }
+  .row
+  {
+    align-items: center !important;
+    justify-content: center !important;
+  }
+  
+  .best_sellers
+  {
+    font-family: "Audiowide", sans-serif !important;
+    color: red;
+    padding: 50px;
+    font-size: 45px;
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+body {
+    font-family: "Poppins", sans-serif;
+    color: #444444;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+.section-products {
+    padding: 80px 0 54px;
+}
+
+.section-products .header {
+    margin-bottom: 50px;
+}
+
+.section-products .header h3 {
+    font-size: 1rem;
+    color: #fe302f;
+    font-weight: 500;
+}
+
+.section-products .header h2 {
+    font-size: 2.2rem;
+    font-weight: 400;
+    color: #444444; 
+}
+
+.section-products .single-product {
+    margin-bottom: 26px;
+}
+
+.section-products .single-product .part-1 {
+    position: relative;
+    height: 290px;
+    max-height: 290px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.section-products .single-product .part-1::before {
+		position: absolute;
+		content: "";
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		z-index: -1;
+		transition: all 0.3s;
+}
+
+.section-products .single-product:hover .part-1::before {
+		transform: scale(1.2,1.2) rotate(5deg);
+}
+
+.section-products #product-1 .part-1::before {
+    background: url("./images_men_shoes/2.PNG") no-repeat center;
+    background-size: cover;
+		transition: all 0.3s;
+}
+
+.section-products #product-2 .part-1::before {
+    background: url("./images_men_shoes/3.PNG") no-repeat center;
+    background-size: cover;
+}
+
+.section-products #product-3 .part-1::before {
+    background: url("./images_men_shoes/4.PNG") no-repeat center;
+    background-size: cover;
+}
+
+.section-products #product-4 .part-1::before {
+    background: url("./images_men_shoes/5.PNG") no-repeat center;
+    background-size: cover;
+}
+
+.section-products #product-5 .part-1::before {
+  background: url("./images_men_shoes/6.PNG") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #product-6 .part-1::before {
+  background: url("./images_men_shoes/7.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #product-7 .part-1::before {
+  background: url("./images_men_shoes/8.PNG") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #product-8 .part-1::before {
+  background: url("./images_men_shoes/9.PNG") no-repeat center;
+  background-size: cover;
+}
+
+
+
+
+.section-products #product-11 .part-1::before {
+  background: url("https://assets.myntassets.com/h_1440,q_100,w_1080/v1/images/style/properties/US-Polo-Assn-Men-Brown-Formal-Shoes_e3721670f3b7baa7b51dfe8e4f60727f_images.jpg") no-repeat center;
+  background-size: cover;
+  transition: all 0.3s;
+}
+
+.section-products #product-12 .part-1::before {
+  background: url("https://rukminim1.flixcart.com/image/850/700/shoe/g/v/k/black-rts8771-red-tape-10-original-imae4t7y9yz38ced.jpeg?q=90") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #product-13 .part-1::before {
+  background: url("https://img1.exportersindia.com/product_images/bc-full/2019/5/6291250/men-formal-shoes-1556882640-4888335.jpeg") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #product-14 .part-1::before {
+  background: url("https://assets.ajio.com/medias/sys_master/root/20230906/tHy0/64f89d41afa4cf41f5c3e54c/-473Wx593H-461370283-brown-MODEL.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #product-15 .part-1::before {
+background: url("https://rukminim2.flixcart.com/image/850/1000/kqb8pzk0/shoe/y/k/j/7-formal-shoe-for-men-b-ned-k-collection-copper-original-imag4d2nfxtqtyky.jpeg?q=20") no-repeat center;
+background-size: cover;
+}
+
+.section-products #product-16 .part-1::before {
+background: url("https://5.imimg.com/data5/SELLER/Default/2022/9/TA/EV/XP/38630640/leather-men-s-formal-shoes-250x250.jpg") no-repeat center;
+background-size: cover;
+}
+
+.section-products #product-17 .part-1::before {
+background: url("https://5.imimg.com/data5/SELLER/Default/2020/12/LY/AF/TY/116360542/formal-shoes-party-slip-on-500x500.jpg") no-repeat center;
+background-size: cover;
+}
+
+.section-products #product-18 .part-1::before {
+background: url("https://5.imimg.com/data5/SELLER/Default/2023/4/303788591/YK/KE/NY/39191267/formal3-500x500.jpg") no-repeat center;
+background-size: cover;
+}
+
+
+
+
+
+.section-products .single-product .part-1 .discount,
+.section-products .single-product .part-1 .new {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    color: #ffffff;
+    background-color: #fe302f;
+    padding: 2px 8px;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+}
+
+.section-products .single-product .part-1 .new {
+    left: 0;
+    background-color: #444444;
+}
+
+.section-products .single-product .part-1 ul {
+    position: absolute;
+    bottom: -41px;
+    left: 20px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    opacity: 0;
+    transition: bottom 0.5s, opacity 0.5s;
+}
+
+.section-products .single-product:hover .part-1 ul {
+    bottom: 30px;
+    opacity: 1;
+}
+
+.section-products .single-product .part-1 ul li {
+    display: inline-block;
+    margin-right: 4px;
+}
+
+.section-products .single-product .part-1 ul li a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #ffffff;
+    color: #444444;
+    text-align: center;
+    box-shadow: 0 2px 20px rgb(50 50 50 / 10%);
+    transition: color 0.2s;
+}
+
+.section-products .single-product .part-1 ul li a:hover {
+    color: #fe302f;
+}
+
+.section-products .single-product .part-2 .product-title {
+    font-size: 1rem;
+}
+
+.section-products .single-product .part-2 h4 {
+    display: inline-block;
+    font-size: 1rem;
+}
+
+.section-products .single-product .part-2 .product-old-price {
+    position: relative;
+    padding: 0 7px;
+    margin-right: 2px;
+    opacity: 0.6;
+}
+
+.section-products .single-product .part-2 .product-old-price::after {
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #444444;
+    transform: translateY(-50%);
+}

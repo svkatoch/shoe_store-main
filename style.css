@@ -1,0 +1,169 @@
+#home {
+  width: 100%;
+  height: 110vh !important;
+}
+
+#home {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.main_image {
+
+  height: 550px;
+  width: 1200px;
+  border-radius: 40px;
+  box-shadow: -4px -1px 20px 9px rgba(0, 0, 0, 0.45),
+    25px 0px 20px -20px rgba(0, 0, 0, 0.45),
+    0px 25px 20px -20px rgba(0, 0, 0, 0.45),
+    -25px 0px 20px -20px rgba(0, 0, 0, 0.45);
+  background-image: url(./images_home/kris-gerhard-0BKZfcamvGg-unsplash\ \(1\).jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-items: center;
+  justify-content: right;
+  align-items: center;
+  padding-right: 15%;
+}
+
+
+.written_content {
+  width: 500px;
+  height: 450px;
+  text-align: center;
+  display: flex;
+  justify-items: center;
+  justify-content: right;
+  align-items: center;
+  flex-direction: column;
+
+
+}
+
+.written_content h1 {
+  color: white;
+  font-family: "Audiowide", sans-serif;
+}
+
+.written_content h2 {
+  color: white;
+  font-family: "Sofia", sans-serif;
+}
+
+.written_content h3 {
+  color: white;
+  font-family: "Sofia", sans-serif;
+}
+
+.heading_home_screen {
+  color: red;
+}
+
+#home {
+  height: 90vh;
+  width: 100%;
+}
+
+#category {
+  width: 100%;
+  height: 100%;
+  background-color: #FFE8E5;
+  padding-top: 50px;
+}
+
+.category_heading {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+#category_heading_line {
+  font-family: "Audiowide", sans-serif;
+}
+
+.category_container {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.category_items img {
+  border-radius: 20px;
+  margin: 40px;
+}
+
+.category_items:hover {
+  opacity: 0.8;
+  transition: 0.7s;
+}
+
+
+#services {
+  margin-top: 50px;
+}
+
+.services_div {
+  width: 100%;
+  height: 70vh;
+
+}
+
+#services h1 {
+  text-align: center;
+  font-family: "Sofia", sans-serif;
+}
+
+.columns {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.services_img {
+  float: left;
+  width: 30%;
+}
+
+.services_img img {
+  height: 100%;
+  width: 100%;
+}
+
+.services_img:hover {
+  opacity: 0.5;
+  transition: 0.7s;
+}
+
+.contact_us_heading {
+  font-family: "Sofia", sans-serif;
+}
+
+.outer_container {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact_us_container {
+  width: 100vh;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+}
+
+.row {
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.best_sellers {
+  font-family: "Audiowide", sans-serif !important;
+  color: red;
+  padding: 50px;
+  font-size: 45px;
+}

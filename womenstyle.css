@@ -1,0 +1,324 @@
+#home{
+    width: 100%;
+    height: 110vh !important;
+  }
+  #home{
+    display: flex;
+    text-align: center;
+      align-items: center;
+      justify-content: center;
+  }
+  
+  .main_image{
+    border: solid;
+      top: 18%;
+      left: 11%;
+      height: 550px;
+      width: 1200px;
+      border-radius: 40px;
+    
+  }
+  
+  .written_content
+  {
+    width: 500px;
+    height: 450px;
+    position: relative;
+    top: 50px;
+    left: 46%;
+    text-align: center;
+  
+    
+  }
+  .written_content h1{
+    color: white;
+    font-family: "Audiowide", sans-serif;
+  }
+  .written_content h2{
+    color: white;
+    font-family: "Sofia", sans-serif;
+  }
+  .written_content h3{
+    color: white;
+    font-family: "Sofia", sans-serif;
+  }
+  .heading_home_screen
+  {
+    color: red;
+  }
+  #home{
+    height: 90vh;
+    width: 100%;
+  }
+ 
+  .columns
+  {
+    display: flex;
+    text-align: center;
+      align-items: center;
+      justify-content: center;
+      
+  }
+  
+  
+  .contact_us_heading
+  {
+    font-family: "Sofia",sans-serif;
+  }
+  .outer_container{
+    display: flex;
+    text-align: center;
+      align-items: center;
+      justify-content: center;
+  }
+  
+  .contact_us_container{
+    width: 100vh;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+  }
+  .row
+  {
+    align-items: center !important;
+    justify-content: center !important;
+  }
+  
+  .best_sellers
+  {
+    font-family: "Audiowide", sans-serif !important;
+    color: red;
+    padding: 50px;
+    font-size: 45px;
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+body {
+    font-family: "Poppins", sans-serif;
+    color: #444444;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+.section-products {
+    padding: 80px 0 54px;
+}
+
+.section-products .header {
+    margin-bottom: 50px;
+}
+
+.section-products .header h3 {
+    font-size: 1rem;
+    color: #fe302f;
+    font-weight: 500;
+}
+
+.section-products .header h2 {
+    font-size: 2.2rem;
+    font-weight: 400;
+    color: #444444; 
+}
+
+.section-products .single-product {
+    margin-bottom: 26px;
+}
+
+.section-products .single-product .part-1 {
+    position: relative;
+    height: 290px;
+    max-height: 290px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.section-products .single-product .part-1::before {
+		position: absolute;
+		content: "";
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		z-index: -1;
+		transition: all 0.3s;
+}
+
+.section-products .single-product:hover .part-1::before {
+		transform: scale(1.2,1.2) rotate(5deg);
+}
+
+.section-products #product-1 .part-1::before {
+    background: url("https://img1.exportersindia.com/product_images/bc-full/2019/8/6560872/ladies-casual-shoes-1567236753-5061465.jpeg") no-repeat center;
+    background-size: cover;
+		transition: all 0.3s;
+}
+
+.section-products #product-2 .part-1::before {
+    background: url("https://img0.junaroad.com/uiproducts/20225484/zoom_0-1693054100.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.section-products #product-3 .part-1::before {
+    background: url("https://www.jiomart.com/images/product/original/rva9wihc1w/denill-white-casual-shoes-for-women-product-images-rva9wihc1w-0-202211041301.jpg?im=Resize=(500,630)") no-repeat center;
+    background-size: cover;
+}
+
+.section-products #product-4 .part-1::before {
+    background: url("https://img.tatacliq.com/images/i9/1348Wx2000H/MP000000015566673_1348Wx2000H_202301261357441.jpeg") no-repeat center;
+    background-size: cover;
+}
+
+.section-products #product-5 .part-1::before {
+  background: url("https://images.meesho.com/images/products/169886734/tyrss_512.webp") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #product-6 .part-1::before {
+  background: url("https://2.wlimg.com/product_images/bc-full/2023/2/10955584/airills-pink-womens-casual-shoes-1677235125-6777113.jpeg") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #product-7 .part-1::before {
+  background: url("https://jcpenney.scene7.com/is/image/jcpenneyimages/womens-spring-flat-78425745-b61c-44ab-b216-b85e28cec153?scl=1&qlt=75") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #product-8 .part-1::before {
+  background: url("https://hayumsidaba.com/wp-content/uploads/2022/05/SL-188-Pink-White-1.jpg") no-repeat center;
+  background-size: cover;
+}
+
+
+
+
+.section-products #product-11 .part-1::before {
+    background: url("https://images.hellomagazine.com/horizon/original_aspect_ratio/9e9349b6f74d-outdazl-z.jpg") no-repeat center;
+    background-size: cover;
+		transition: all 0.3s;
+}
+
+.section-products #product-12 .part-1::before {
+    background: url("https://kxadmin.metroshoes.com/product/33-1377/550/33-1377M29.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.section-products #product-13 .part-1::before {
+    background: url("https://i.pinimg.com/736x/a0/84/22/a08422fd729b67033fcfc2426b9a4ff5.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.section-products #product-14 .part-1::before {
+    background: url("https://5.imimg.com/data5/SELLER/Default/2022/1/BB/VA/NV/5951553/tfc-07954-rate-310-size-38-41-lot-6-32-.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.section-products #product-15 .part-1::before {
+  background: url("https://images.jdmagicbox.com/quickquotes/images_main/womens-heels-2143038118-p9kfoyrh.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #product-16 .part-1::before {
+  background: url("https://5.imimg.com/data5/SELLER/Default/2022/9/QV/XQ/FA/5951553/tfc-09460-rate-268-size-38-41-lot-6-10--500x500.JPG") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #product-17 .part-1::before {
+  background: url("https://5.imimg.com/data5/SELLER/Default/2023/8/331820058/RX/IS/VD/5951553/tfc-01295-rate-172-size-38-41-lot-6-4-500x500.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #product-18 .part-1::before {
+  background: url("https://5.imimg.com/data5/SELLER/Default/2023/8/331820084/BS/BW/FA/5951553/tfc-01295-rate-172-size-38-41-lot-6-7-500x500.jpg") no-repeat center;
+  background-size: cover;
+}
+
+
+
+
+
+
+.section-products .single-product .part-1 .discount,
+.section-products .single-product .part-1 .new {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    color: #ffffff;
+    background-color: #fe302f;
+    padding: 2px 8px;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+}
+
+.section-products .single-product .part-1 .new {
+    left: 0;
+    background-color: #444444;
+}
+
+.section-products .single-product .part-1 ul {
+    position: absolute;
+    bottom: -41px;
+    left: 20px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    opacity: 0;
+    transition: bottom 0.5s, opacity 0.5s;
+}
+
+.section-products .single-product:hover .part-1 ul {
+    bottom: 30px;
+    opacity: 1;
+}
+
+.section-products .single-product .part-1 ul li {
+    display: inline-block;
+    margin-right: 4px;
+}
+
+.section-products .single-product .part-1 ul li a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #ffffff;
+    color: #444444;
+    text-align: center;
+    box-shadow: 0 2px 20px rgb(50 50 50 / 10%);
+    transition: color 0.2s;
+}
+
+.section-products .single-product .part-1 ul li a:hover {
+    color: #fe302f;
+}
+
+.section-products .single-product .part-2 .product-title {
+    font-size: 1rem;
+}
+
+.section-products .single-product .part-2 h4 {
+    display: inline-block;
+    font-size: 1rem;
+}
+
+.section-products .single-product .part-2 .product-old-price {
+    position: relative;
+    padding: 0 7px;
+    margin-right: 2px;
+    opacity: 0.6;
+}
+
+.section-products .single-product .part-2 .product-old-price::after {
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #444444;
+    transform: translateY(-50%);
+}
